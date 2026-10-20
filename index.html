@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6faff" />
+  <meta name="description" content="HearPath 听见成长：面向0—14岁儿童家庭的听力健康观察与就医准备平台。" />
+  <title>听见成长 HearPath · 儿童听力健康观察平台</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="utility-bar"><span class="utility-inner"><span class="pulse-dot"></span> 儿童听力健康观察与家庭支持 <span class="utility-divider">·</span> 家庭观察 · 就医信息支持</span></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="听见成长，返回首页">
+        <span class="brand-mark"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M9 19.8v.4M15 13v14M21 7v26M27 12v16M33 17v6" stroke="white" stroke-width="3.3" stroke-linecap="round"/></svg></span>
+        <span class="brand-name"><strong>HearPath</strong><small>听见成长</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="主要导航">
+        <a href="#why">平台介绍</a><a href="#ages">年龄问卷</a><a href="#how">使用流程</a><a href="#promise">家长须知</a>
+      </nav>
+      <button class="nav-cta" data-start="infant">体验观察问卷 <span aria-hidden="true">↗</span></button>
+      <button class="menu-toggle" id="menuToggle" aria-label="展开导航" aria-expanded="false">☰</button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="移动端导航"><a href="#why">平台介绍</a><a href="#ages">年龄问卷</a><a href="#how">使用流程</a><a href="#promise">家长须知</a></nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow hero-glow-a"></div><div class="hero-glow hero-glow-b"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-icon">✦</span> 为每一位关心孩子的家长设计</span>
+          <h1>每一份关心，<br />都值得<span class="text-gradient">清晰的回应。</span></h1>
+          <p class="hero-lead">从观察孩子的日常听觉反应开始。通过9组适龄问卷、可选情境观察、可视化观察报告和就医准备清单，让担忧变成更有方向的下一步。</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#ages">开始了解孩子的情况 <span>→</span></a><button class="btn btn-subtle" id="sampleReportBtn">查看报告示例 <span>↗</span></button></div>
+          <div class="hero-micro"><span><i class="check-circle">✓</i> 0—14岁分年龄设计</span><span><i class="check-circle">✓</i> 无需注册</span><span><i class="check-circle">✓</i> 仅在本地处理</span></div>
+        </div>
+        <div class="hero-art" aria-label="听力观察结果界面示意">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="floating-note note-top"><span class="small-symbol sound-icon">♫</span><span><strong>倾听每一份成长</strong><small>用理解回应不确定</small></span></div>
+          <div class="app-preview">
+            <div class="preview-top"><span class="preview-brand"><span class="preview-brand-dot"></span> HearPath <span class="preview-muted">/ 观察概览</span></span><span class="preview-menu">•••</span></div>
+            <div class="preview-title"><span>儿童听力健康观察</span><span class="preview-tag">示例界面</span></div>
+            <div class="preview-subtitle">一步一步了解，下一步更安心</div>
+            <div class="preview-progress-label"><span>观察进度</span><strong>03 / 04</strong></div><div class="preview-progress"><span></span></div>
+            <div class="preview-question">孩子在日常生活中，对家人的声音通常会有什么反应？</div>
+            <div class="preview-option selected"><span class="radio-circle checked"></span> 经常有反应 <span class="end-arrow">✓</span></div>
+            <div class="preview-option"><span class="radio-circle"></span> 有时有反应</div>
+            <div class="preview-option"><span class="radio-circle"></span> 很少有反应</div>
+            <div class="preview-option"><span class="radio-circle"></span> 暂时不确定</div>
+            <div class="preview-footer"><span>‹ 上一步</span><span class="preview-next">继续下一步 →</span></div>
+          </div>
+          <div class="floating-note note-bottom"><span class="small-symbol shield-icon">✓</span><span><strong>信息更清楚</strong><small>结果不是医学诊断</small></span></div>
+          <div class="sound-wave wave1"></div><div class="sound-wave wave2"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefit-strip" id="why"><div class="container benefit-grid">
+      <div class="benefit-item"><span class="benefit-icon">◉</span><span><strong>适合孩子的年龄</strong><small>不同时期，关注不同表现</small></span></div>
+      <div class="benefit-item"><span class="benefit-icon">▤</span><span><strong>清楚易读的观察结果</strong><small>整理表现，而非猜测疾病</small></span></div>
+      <div class="benefit-item"><span class="benefit-icon">↗</span><span><strong>具体的下一步行动</strong><small>让就医沟通更有准备</small></span></div>
+    </div></section>
+
+    <section class="section ages-section" id="ages">
+      <div class="container">
+        <div class="section-heading split-heading"><div><span class="section-kicker">01 / AGE-BASED OBSERVATION</span><h2>从孩子的年龄，开始了解。</h2><p>每一个成长阶段，都有不同的观察重点。选择孩子所在的年龄段，进入为这个阶段设计的问卷。</p></div><div class="section-side-note"><span class="blue-dot"></span> 9 个年龄组现已可体验<br /><small>根据年龄切换题目与分析维度</small></div></div>
+        <div class="age-grid" id="ageGrid">
+          <button class="age-card ready" data-start="infant"><span class="age-card-top"><span class="age-emoji">◕</span><span class="status status-live">可体验</span></span><strong>0—6个月</strong><small>初生与早期听觉反应</small><span class="age-arrow">↗</span></button>
+          <button class="age-card ready" data-start="baby"><span class="age-card-top"><span class="age-emoji">✳</span><span class="status status-live">可体验</span></span><strong>6—12个月</strong><small>声音定位与早期交流</small><span class="age-arrow">↗</span></button>
+          <button class="age-card ready" data-start="oneTwo"><span class="age-card-top"><span class="age-emoji">♧</span><span class="status status-live">可体验</span></span><strong>1—2岁</strong><small>词语发展与简单理解</small><span class="age-arrow">↗</span></button>
+          <button class="age-card ready" data-start="toddler"><span class="age-card-top"><span class="age-emoji">◈</span><span class="status status-live">可体验</span></span><strong>2—3岁</strong><small>听觉理解与语言表达</small><span class="age-arrow">↗</span></button>
+          <button class="age-card ready" data-start="preschool"><span class="age-card-top"><span class="age-emoji">☼</span><span class="status status-live">可体验</span></span><strong>3—4岁</strong><small>对话互动与表达清晰度</small><span class="age-arrow">↗</span></button>
+          <button class="age-card ready" data-start="kindergarten"><span class="age-card-top"><span class="age-emoji">◇</span><span class="status status-live">可体验</span></span><strong>4—6岁</strong><small>集体环境与交流能力</small><span class="age-arrow">↗</span></button>
+          <button class="age-card ready" data-start="schoolYoung"><span class="age-card-top"><span class="age-emoji">✎</span><span class="status status-live">可体验</span></span><strong>6—9岁</strong><small>课堂听讲与沟通表现</small><span class="age-arrow">↗</span></button>
+          <button class="age-card ready" data-start="schoolOlder"><span class="age-card-top"><span class="age-emoji">▦</span><span class="status status-live">可体验</span></span><strong>9—12岁</strong><small>环境听觉与学习交流</small><span class="age-arrow">↗</span></button>
+          <button class="age-card ready" data-start="adolescent"><span class="age-card-top"><span class="age-emoji">⌁</span><span class="status status-live">可体验</span></span><strong>12—14岁</strong><small>听觉变化与校园生活</small><span class="age-arrow">↗</span></button>
+        </div>
+        <div class="inline-notice" id="plannedNotice" role="status" aria-live="polite" hidden><span>ℹ</span><span id="plannedNoticeText"></span><button id="closePlanned" aria-label="关闭提示">×</button></div>
+      </div>
+    </section>
+
+    <section class="health-highlight" id="healthHistory"><div class="container health-highlight-inner">
+    <div class="health-highlight-icon" aria-hidden="true">✳</div>
+    <div class="health-highlight-copy"><span class="section-kicker">HEALTH HISTORY / OPTIONAL</span>
+      <h2>不仅记录今天，也关心孩子成长前的健康背景。</h2>
+      <p>问卷包含可跳过的孕期感染、早产、重症监护、黄疸处理、既往疾病和家族史分支。<strong>医院确诊与仅被怀疑会分开记录</strong>，减少不必要的推测。</p>
+      <div class="health-mini-tags"><span>✓ 不清楚可跳过</span><span>✓ 根据回答追问</span><span>✓ 自动写入就诊准备报告</span></div>
+    </div><a class="btn btn-primary" href="#ages">开始适龄问卷 <span aria-hidden="true">→</span></a>
+  </div></section>
+  <section class="section scene-section" id="scene">
+      <div class="container">
+        <div class="scene-section-heading">
+          <div><span class="section-kicker">CONTEXT / OBSERVATION</span>
+            <h2>同样的“没听见”，<span class="text-gradient">也可能发生在不同场景。</span></h2>
+            <p>我们为各年龄段加入了<strong>可选的家庭情境记录</strong>。家长可以补充交流时的环境、注意状态和自然回应，让报告呈现更完整的观察背景。</p>
+          </div>
+          <a class="btn btn-primary" href="#ages">选择孩子年龄 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="scene-feature-grid">
+          <article class="scene-feature"><div class="scene-feature-icon" aria-hidden="true">◌</div><span>0—12个月</span><h3>自然声音与早期互动</h3><p>回忆婴儿对熟悉人声和生活声音的自然反应，不做突然的声响测试。</p></article>
+          <article class="scene-feature"><div class="scene-feature-icon" aria-hidden="true">☏</div><span>1—6岁</span><h3>名字回应与日常交流</h3><p>记录孩子在安静或有背景声的环境中，如何回应家长的正常交谈。</p></article>
+          <article class="scene-feature"><div class="scene-feature-icon" aria-hidden="true">▦</div><span>6—14岁</span><h3>课堂与复杂听觉环境</h3><p>整理课堂、多人交流和背景噪声下的沟通困难与孩子自己的描述。</p></article>
+        </div>
+        <p class="scene-safety">观察不是听力检测：距离、音量和一次回应不能用于判断听力损失程度。如果有明显或突然的听觉变化，请直接寻求专业评估。</p>
+      </div>
+    </section>
+
+    <section class="section steps-section" id="how"><div class="container">
+      <div class="section-heading centered"><span class="section-kicker">02 / HOW IT WORKS</span><h2>从一份问卷，到一份清晰的行动计划。</h2><p>无需医学背景，也无需复杂操作。用几分钟整理您所观察到的情况。</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><div class="step-number">01<span> / 03</span></div><div class="step-illustration ill-one"><div class="mini-sheet"><span class="mini-line long"></span><span class="mini-line"></span><span class="mini-check">✓</span><span class="mini-line"></span></div></div><h3>填写适龄问卷</h3><p>九组分年龄题目，搭配可选的日常情境观察，涵盖听觉反应、沟通表现、校园场景，并可选择补充孕期与出生健康史。</p></article>
+        <article class="step-card"><div class="step-number">02<span> / 03</span></div><div class="step-illustration ill-two"><div class="chart-mini"><span></span><span></span><span></span><span></span><span></span></div><div class="magnifier">⌕</div></div><h3>整理观察线索</h3><p>通过预设规则整理回答，帮助识别需要进一步了解的信息，不输出疾病概率或诊断。</p></article>
+        <article class="step-card"><div class="step-number">03<span> / 03</span></div><div class="step-illustration ill-three"><div class="result-mini"><span class="mini-badge">✓</span><span class="mini-line long"></span><span class="mini-line"></span><span class="mini-line short"></span></div></div><h3>获得下一步建议</h3><p>查看个性化观察摘要、就医准备清单，还能打印保存，便于与专业人员交流。</p></article>
+      </div>
+    </div></section>
+
+    <section class="section sample-section"><div class="container sample-layout"><div class="sample-left"><span class="section-kicker">03 / A CLEARER PICTURE</span><h2>不只是回答问题，<br />更是理解<span class="text-gradient">下一步。</span></h2><p>观察报告以重点方向、证据解释、信息填写概览和行动清单呈现，支持复制摘要与打印，方便带去就诊交流。</p><button class="btn btn-primary" id="sampleReportBtn2">预览示例观察报告 <span>→</span></button></div>
+      <div class="report-art"><div class="report-paper"><div class="report-paper-header"><span class="paper-logo">▥</span><div><strong>儿童听力健康观察报告</strong><small>HearPath · 演示数据</small></div><span class="paper-dots">•••</span></div><div class="paper-blue-banner"><span>观察摘要</span><strong>帮助家长整理信息，了解下一步</strong></div><div class="paper-metrics"><span><i class="metric-dot"></i> 日常声音反应 <strong>建议进一步了解</strong></span><span><i class="metric-dot light"></i> 语言沟通表现 <strong>建议进一步了解</strong></span><span><i class="metric-dot paler"></i> 既往检查信息 <strong>有待核实</strong></span></div><div class="paper-list"><span>下一步建议</span><p>① 核实既往听力筛查记录</p><p>② 联系儿童听力相关专业人员</p><p>③ 携带观察记录进行咨询</p></div><div class="paper-footer">仅为信息整理工具 · 不构成医学诊断</div></div></div>
+    </div></section>
+
+    <section class="section promise-section" id="promise"><div class="container promise-layout"><div class="promise-icon">♡</div><div><span class="section-kicker">DESIGNED WITH CARE</span><h2>认真对待每一次担忧，也尊重每一个家庭。</h2><p>问卷结果是家长观察信息的整理，不等于医学筛查或诊断。如果您担心孩子存在听力问题，请及时联系专业人员。无需填写姓名或上传病历，数据不会发送到服务器。</p></div><div class="promise-points"><span>✓ 不制造未经验证的疾病概率</span><span>✓ 不要求上传儿童个人病历</span><span>✓ 提供清晰的下一步建议</span></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-row"><div class="footer-brand"><span class="brand-mark mini"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M9 19.8v.4M15 13v14M21 7v26M27 12v16M33 17v6" stroke="white" stroke-width="3.3" stroke-linecap="round"/></svg></span><span><strong>HearPath · 听见成长</strong><small>儿童听力健康观察与家庭支持</small></span></div><div class="footer-small">竞赛展示作品 · 非临床诊断工具<br />问卷和结果规则尚待专业审核，不能用于医学诊断。</div></div></footer>
+
+  <div class="overlay" id="questionnaireOverlay" hidden>
+    <div class="overlay-backdrop" data-close="questionnaire"></div>
+    <section class="dialog questionnaire-dialog" role="dialog" aria-modal="true" aria-labelledby="questionnaireTitle">
+      <div class="dialog-top"><div class="dialog-title-mark">◈</div><div><span class="dialog-overline">HEARPATH · 分龄交互问卷</span><h2 id="questionnaireTitle">儿童听力健康观察</h2></div><button class="icon-close" id="closeQuestionnaire" aria-label="关闭问卷">×</button></div>
+      <div class="questionnaire-progress"><div class="questionnaire-progress-label"><span id="questionnaireStepLabel">第 1 题</span><span id="questionnairePercent">0%</span></div><div class="questionnaire-progress-track"><span id="questionnaireProgressFill"></span></div></div>
+      <div class="questionnaire-body"><span class="question-category" id="questionCategory"></span><h3 id="questionText"></h3><p id="questionHelp" class="question-help"></p><p id="liveSafetyNote" class="live-safety-note" role="alert" hidden></p><div class="answers" id="answerOptions"></div><div class="question-disclaimer">请根据日常真实观察选择，不需要专门制造响声来测试孩子。</div></div>
+      <div class="dialog-bottom"><button class="btn btn-back" id="prevQuestion">← 上一题</button><button class="btn btn-primary" id="nextQuestion" disabled>下一步 →</button></div>
+    </section>
+  </div>
+
+  <div class="overlay" id="reportOverlay" hidden>
+    <div class="overlay-backdrop" data-close="report"></div>
+    <section class="dialog report-dialog" role="dialog" aria-modal="true" aria-labelledby="reportTitle">
+      <div class="dialog-top report-dialog-top"><div class="dialog-title-mark">▤</div><div><span class="dialog-overline">HEARPATH · OBSERVATION SUMMARY</span><h2 id="reportTitle">儿童听力健康观察报告</h2></div><button class="icon-close" id="closeReport" aria-label="关闭报告">×</button></div>
+      <div class="report-content" id="reportContent"></div>
+      <div class="dialog-bottom report-buttons"><span class="copy-feedback" id="copyFeedback" role="status" aria-live="polite"></span><button class="btn btn-back" id="closeReportBottom">返回首页</button><button class="btn btn-subtle" id="copySummary">复制就诊摘要</button><button class="btn btn-primary" id="printReport">打印 / 存为 PDF ↗</button></div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
